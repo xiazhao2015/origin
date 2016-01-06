@@ -131,9 +131,9 @@
             "from": {
               "kind": "ImageStreamTag",
               "name": "ruby-20-centos7:latest"
-            }
+            },
+            "incremental": true
           },
-          "incremental": true,
           "env": [
             {
               "name": "EXAMPLE",
